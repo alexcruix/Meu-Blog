@@ -220,7 +220,7 @@ body {
         height: 100px;
     }
     .sobre{
-        font-size: 25px;
+        font-size: 20px;
         position: absolute;
         top: 125px;
     }
@@ -245,8 +245,15 @@ body {
         max-width: 800px;
     }
     .menu ul {
-        font-size: 12px;
+        font-size: 22px;
         width: 96%;
+    }
+
+    .menu-vertical ul{
+        font-size: 18px;
+        display: grid;
+        top: 6%;
+        float: left;
     }
 }
 
@@ -373,7 +380,7 @@ li a:hover {
 
 .menu-vertical ul{
     margin: 0%;
-    top: 8%;
+    top: 12%;
     width: 10%;
     padding: 0%;
     float: left;

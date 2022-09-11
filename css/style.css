@@ -161,10 +161,39 @@ body {
     }
 }
 
-@media screen and (min-width:700px) {
+@media screen and (min-width:768px) {
     body{
         background-color: white;
-        max-width: 480px;
+        max-width: 550px;
+    }
+    .menu ul {
+        font-size: 18px;
+        width: 95%;
+    }
+    .menu-vertical ul{
+        font-size: 18px;
+        display: grid;
+        top: 6%;
+        float: left;
+    }
+    .fotoalex img{
+        position: absolute;
+        display: flex;
+        right: inherit;
+        top: 15px;
+        width: 100px;
+        height: 100px;
+    }
+    .sobre{
+        font-size: 18px;
+        position: absolute;
+        top: 65px;
+    }
+    .nome{
+        font-size: 30px;
+        max-width: 500px;
+        position: absolute;
+        top: 35px;
     }
 }
 

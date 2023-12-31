@@ -244,13 +244,21 @@ body {
         background-color: white;
         max-width: 800px;
     }
+
+    .nome{
+        font-size: 40px;
+        max-width: 800px;
+        position: absolute;
+        top: 25px;
+    }
+
     .menu ul {
-        font-size: 22px;
+        font-size: 24px;
         width: 96%;
     }
 
     .menu-vertical ul{
-        font-size: 18px;
+        font-size: 22px;
         display: grid;
         top: 6%;
         float: left;
@@ -336,9 +344,10 @@ body {
 
 
 ul {
-    width: 97.1%;
+    width: 100%;
     top: 0%;
     left: 0%;
+    right: 0%;
     background-color: #000;
     position: absolute;
 }
@@ -350,7 +359,7 @@ li {
     }
 
 li a {
-        padding: 6px 10px; 
+        padding: 6px 15px; 
         margin: 0px;
         border: 0px solid #CCC; 
         background: black;
@@ -381,7 +390,7 @@ li a:hover {
 .menu-vertical ul{
     margin: 0%;
     top: 12%;
-    width: 10%;
+    width: 8%;
     padding: 0%;
     float: left;
 }
@@ -399,7 +408,7 @@ li a:hover {
     color: white;
     font-weight: bold;
     text-decoration: none;
-    padding: 12px;
+    padding: 11px;
     display: block;
     }
 

@@ -116,6 +116,13 @@ body {
         width: 70px;
         height: 70px;
     }
+
+    .subtitulo{
+        position: absolute;
+        top: 130px;
+        font-size: 15px;
+    }
+
     .menu ul {
         font-size: 12px;
         width: 89%;

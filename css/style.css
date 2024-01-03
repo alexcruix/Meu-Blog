@@ -5,12 +5,6 @@ body {
     margin: 0 auto;
 }
 
-.container{
-    padding: 15px;
-    display: none;
-    /*visibility: hidden;*/
-}
-
 @media screen and (min-width:170px) {
     body{
         background-color: white;

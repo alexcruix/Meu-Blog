@@ -15,6 +15,7 @@ if (!isset($_SESSION['usuario_logado'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Alex de Campos Santos Toledo Camilo" />
     <link rel="stylesheet" href="css/style.css">
+    <import { SpeedInsights } from "@vercel/speed-insights/next">
     <title>Meu Blog</title>
 </head>
 <body>

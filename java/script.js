@@ -1,15 +1,15 @@
-function vermais(){
-    let pontos = document.getElementById("pontos");
-    let maisTexto = document.getElementById("mais");
-    let btnVerMais = document.getElementById("btnVerMais");
+function leiaMais(){
+    var pontos = document.getElementById("pontos");
+    var maisTexto = document.getElementById("mais");
+    var btnLeiaMais = document.getElementById("btnLeiaMais");
 
     if (pontos.style.display === "none"){
         pontos.style.display="inline";
         maisTexto.style.display="none";
-        btnVerMais.innerHTML="Ver Mais";
+        btnLeiaMais.innerHTML="Leia Mais";
     }else{
         pontos.style.display="none";
         maisTexto.style.display="inline";
-        btnVerMais.innerHTML="Ver Menos";
+        btnLeiaMais.innerHTML="Leia Menos";
     }
 }

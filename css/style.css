@@ -5,6 +5,10 @@ body {
     margin: 0 auto;
 }
 
+.mais{
+    display: none;
+}
+
 @media screen and (min-width:170px) {
     body{
         background-color: white;
@@ -64,6 +68,10 @@ body {
         display: relative;
         font-size: 20px;
         top: 2000px;
+    }
+
+    .mais{
+        display: none;
     }
 }
 
@@ -450,6 +458,10 @@ body {
         max-width: 690px;
     }
 
+    #mais{
+        display: none;
+    }
+
     .menu ul {
         font-size: 18px;
         width: 100%;
@@ -479,6 +491,10 @@ body {
     body{
         background-color: white;
         max-width: 800px;
+    }
+
+    #mais{
+        display: none;
     }
 
     .nome{
@@ -694,8 +710,4 @@ li a:hover {
 .opcao_resumo_index{
     display: relative;
     font-size: 20px;
-}
-
-.mais{
-    display: none;
 }

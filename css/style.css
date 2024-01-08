@@ -46,7 +46,7 @@ body {
         top: 30px;
         left: -40px;
         font-size: 10px;
-        width: 100%;
+        width: 95%;
     }
     .menu li {
         list-style: none;
@@ -384,7 +384,7 @@ body {
     }
     .menu ul {
         font-size: 18px;
-        width: 100%;
+        width: 97%;
     }
     .menu-vertical ul{
         font-size: 18px;
@@ -421,7 +421,7 @@ body {
     }
     .menu ul {
         font-size: 18px;
-        width: 100%;
+        width: 98.95%;
     }
     .menu-vertical ul{
         font-size: 18px;
@@ -437,6 +437,8 @@ body {
         height: 100px;
         border-radius: 50%;
     }
+
+
     .sobre{
         font-size: 20px;
         position: absolute;
@@ -469,7 +471,7 @@ body {
     .menu ul {
         color: #CCC;
         font-size: 18px;
-        width: 100%;
+        width: 98%;
     }
 
     .nome{
@@ -509,7 +511,7 @@ body {
     .menu ul {
         font-size: 24px;
         top: 10px;
-        width: 70%;
+        width: 98   %;
     }
 
     .menu-vertical ul{
@@ -579,6 +581,7 @@ body {
         width: 300px;
         height: 300px;
     }
+
     .nome{
         font-size: 35px;
         position: absolute;

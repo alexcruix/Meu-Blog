@@ -1,793 +1,807 @@
 body {
-    margin: 0px auto;
-    max-height: 0%;
+margin: 0px auto;
+max-height: 0%;
 }
 
 .melhorparte{
-    display: flex;
-    text-align: center;
+display: flex;
+text-align: center;
 }
 @media screen and (min-width:170px) {
-    body{
-        background-color: white;
-        max-width: 220px;
-    }
+body{
+background-color: white;
+max-width: 220px;
+}
 
-    .subtitulo{
-        position: absolute;
-        top: 420px;
-        font-size: 14px;
-    }
+.subtitulo{
+position: absolute;
+top: 420px;
+font-size: 14px;
+}
 
-    .sobre{
-        font-size: 15px;
-        position: absolute;
-        top: 380px;
-    }
-    .nome{
-        font-size: 19px;
-        position: absolute;
-        top: 350px;
-    }
-    .menu-vertical ul{
-        display: flex;
-        font-size: 10px;
-        left: 5px;
-    }
-    
-    .menu-vertical ul li {
-        margin: 0%;
-        padding: 0px;
-        border-bottom: 1px solid #CCC;
-        text-align: left;
-        list-style-type: none;
-        }
-    .menu ul {
-        top: 30px;
-        left: -40px;
-        font-size: 10px;
-        width: 95%;
-    }
-    .menu li {
-        list-style: none;
-        margin: 0px;
-        display: inline;
-        }
-    .fotoalex img{
-        position: absolute;
-        display: flex;
-        right: 10px;
-        top: 165px;
-        width: 150px;
-        height: 150px;
-        border-radius: 50%;
-    }
+.sobre{
+font-size: 15px;
+position: absolute;
+top: 380px;
+}
+.nome{
+font-size: 19px;
+position: absolute;
+top: 350px;
+}
+.menu-vertical ul{
+display: flex;
+font-size: 10px;
+left: 5px;
+}
 
-    .opcao_resumo_index{
-        display: relative;
-        font-size: 20px;
-        top: 2000px;
-    }
+.menu-vertical ul li {
+margin: 0%;
+padding: 0px;
+border-bottom: 1px solid #CCC;
+text-align: left;
+list-style-type: none;
+}
+.menu ul {
+top: 30px;
+left: -40px;
+font-size: 10px;
+width: 95%;
+}
+.menu li {
+list-style: none;
+margin: 0px;
+display: inline;
+}
+.fotoalex img{
+position: absolute;
+display: flex;
+right: 10px;
+top: 165px;
+width: 150px;
+height: 150px;
+border-radius: 50%;
+}
+
+.opcao_resumo_index{
+display: relative;
+font-size: 20px;
+top: 2000px;
+}
 
 }
 
 @media screen and (min-width:200px) {
-    body{
-        background-color: white;
-        max-width: 220px;
-    }
+body{
+background-color: white;
+max-width: 220px;
+}
 
-    .subtitulo{
-        position: absolute;
-        top: 420px;
-        font-size: 14px;
-    }
+.subtitulo{
+position: absolute;
+top: 420px;
+font-size: 14px;
+}
 
-    .sobre{
-        font-size: 15px;
-        position: absolute;
-        top: 380px;
-    }
-    .nome{
-        font-size: 22px;
-        position: absolute;
-        top: 350px;
-    }
-    .menu-vertical ul{
-        display: flex;
-        font-size: 9px;
-        left: 5px;
-    }
-    
-    .menu-vertical ul li {
-        margin: 0%;
-        padding: 0px;
-        border-bottom: 1px solid #CCC;
-        text-align: left;
-        list-style-type: none;
-        }
-    .menu ul {
-        top: 30px;
-        left: -40px;
-        font-size: 10px;
-        width: 100%;
-    }
-    .menu li {
-        list-style: none;
-        margin: 0px;
-        display: inline;
-        }
-    .fotoalex img{
-        position: absolute;
-        display: flex;
-        right: 40px;
-        top: 165px;
-        width: 150px;
-        height: 150px;
-        border-radius: 50%;
-    }
+.sobre{
+font-size: 15px;
+position: absolute;
+top: 380px;
+}
+.nome{
+font-size: 22px;
+position: absolute;
+top: 350px;
+}
+.menu-vertical ul{
+display: flex;
+font-size: 9px;
+left: 5px;
+}
 
-    .opcao_resumo_index{
-        display: relative;
-        font-size: 20px;
-        top: 2000px;
-    }
+.menu-vertical ul li {
+margin: 0%;
+padding: 0px;
+border-bottom: 1px solid #CCC;
+text-align: left;
+list-style-type: none;
+}
+.menu ul {
+top: 30px;
+left: -40px;
+font-size: 10px;
+width: 100%;
+}
+.menu li {
+list-style: none;
+margin: 0px;
+display: inline;
+}
+.fotoalex img{
+position: absolute;
+display: flex;
+right: 40px;
+top: 165px;
+width: 150px;
+height: 150px;
+border-radius: 50%;
+}
+
+.opcao_resumo_index{
+display: relative;
+font-size: 20px;
+top: 2000px;
+}
 }
 
 
 @media screen and (min-width:280px) {
-    body{
-        background-color: white;
-        max-width: 220px;
-    }
+body{
+background-color: white;
+max-width: 220px;
+}
 
-    .subtitulo{
-        position: absolute;
-        top: 380px;
-        font-size: 12px;
-    }
+.subtitulo{
+position: absolute;
+top: 380px;
+font-size: 12px;
+}
 
-    .sobre{
-        font-size: 15px;
-        position: absolute;
-        top: 320px;
-    }
-    .nome{
-        font-size: 22px;
-        position: absolute;
-        top: 300px;
-    }
-    .menu-vertical ul{
-        display: grid;
-        top: 1000px;
-        font-size: 12px;
-    }
-    
-    .menu-vertical ul li {
-        margin: 0%;
-        padding: 0px;
-        border-bottom: 1px solid #CCC;
-        text-align: left;
-        list-style-type: none;
-        }
-    .menu ul {
-        top: 30px;
-        left: -20px;
-        font-size: 10px;
-        width: 100%;
-    }
-    .menu li {
-        list-style: none;
-        margin: 0px;
-        display: inline;
-        }
-    .fotoalex img{
-        position: absolute;
-        display: flex;
-        right: 60px;
-        top: 100px;
-        width: 150px;
-        height: 150px;
-        border-radius: 50%;
-    }
+.sobre{
+font-size: 15px;
+position: absolute;
+top: 320px;
+}
+.nome{
+font-size: 22px;
+position: absolute;
+top: 300px;
+}
+.menu-vertical ul{
+display: grid;
+top: 1000px;
+font-size: 12px;
+}
 
-    .opcao_resumo_index{
-        display: absolute;
-        font-size: 10px;
-        top: 100px;
-    }
+.menu-vertical ul li {
+margin: 0%;
+padding: 0px;
+border-bottom: 1px solid #CCC;
+text-align: left;
+list-style-type: none;
+}
+.menu ul {
+top: 30px;
+left: -20px;
+font-size: 10px;
+width: 100%;
+}
+.menu li {
+list-style: none;
+margin: 0px;
+display: inline;
+}
+.fotoalex img{
+position: absolute;
+display: flex;
+right: 60px;
+top: 100px;
+width: 150px;
+height: 150px;
+border-radius: 50%;
+}
+
+.opcao_resumo_index{
+display: absolute;
+font-size: 10px;
+top: 100px;
+}
 }
 
 @media screen and (min-width:320px) {
-    body{
-        background-color: white;
-        max-width: 150px;
-    }
-    .sobre{
-        font-size: 15px;
-        position: absolute;
-        top: 100px;
-    }
-    .nome{
-        font-size: 22px;
-        max-width: 150px;
-        position: absolute;
-        top: 55px;
-    }
-    .menu-vertical ul{
-        display: grid;
-        top: 6%;
-        float: left;
-    }
-    .menu ul {
-        font-size: 10px;
-        width: 100%;
-    }
-    .fotoalex img{
-        position: absolute;
-        display: flex;
-        right: 5px;
-        top: 50px;
-        width: 70px;
-        height: 70px;
-        border-radius: 50%;
-    }
+body{
+background-color: white;
+max-width: 150px;
+}
+.sobre{
+font-size: 15px;
+position: absolute;
+top: 100px;
+}
+.nome{
+font-size: 22px;
+max-width: 150px;
+position: absolute;
+top: 55px;
+}
+.menu-vertical ul{
+display: grid;
+top: 6%;
+float: left;
+}
+.menu ul {
+font-size: 10px;
+width: 100%;
+}
+.fotoalex img{
+position: absolute;
+display: flex;
+right: 5px;
+top: 50px;
+width: 70px;
+height: 70px;
+border-radius: 50%;
+}
 
-    .subtitulo{
-        position: absolute;
-        top: 150px;
-        font-size: 13px;
-    }
+.subtitulo{
+position: absolute;
+top: 150px;
+font-size: 13px;
+}
 
-    .opcao_resumo_index{
-        display: absolute;
-        font-size: 10px;
-        top: 100px;
-    }
+.opcao_resumo_index{
+display: absolute;
+font-size: 10px;
+top: 100px;
+}
 
 }
 
 @media screen and (min-width:375px) {
-    body{
-        background-color: white;
-        max-width: 200px;
-    }
-    .nome{
-        font-size: 25px;
-        max-width: 200px;
-        position: absolute;
-        top: 55px;
-    }
-    .sobre{
-        font-size: 15px;
-        position: absolute;
-        top: 110px;
-    }
-    .menu-vertical ul{
-        font-size: 12px;
-        display: grid;
-        top: 6%;
-        float: left;
-    }
-    .fotoalex img{
-        position: absolute;
-        display: flex;
-        right: 10px;
-        top: 70px;
-        width: 70px;
-        height: 70px;
-        border-radius: 50%;
-    }
+body{
+background-color: white;
+max-width: 200px;
+}
+.nome{
+font-size: 25px;
+max-width: 200px;
+position: absolute;
+top: 55px;
+}
+.sobre{
+font-size: 15px;
+position: absolute;
+top: 110px;
+}
+.menu-vertical ul{
+font-size: 12px;
+display: grid;
+top: 6%;
+float: left;
+}
+.fotoalex img{
+position: absolute;
+display: flex;
+right: 10px;
+top: 70px;
+width: 70px;
+height: 70px;
+border-radius: 50%;
+}
 
-    .subtitulo{
-        position: absolute;
-        top: 160px;
-        font-size: 15px;
-    }
+.subtitulo{
+position: absolute;
+top: 160px;
+font-size: 15px;
+}
 
-    .menu ul {
-        font-size: 12px;
-        width: 100%;
-    }
+.menu ul {
+font-size: 12px;
+width: 100%;
+}
 }
 
 @media screen and (min-width:425px) {
-    body{
-        background-color: white;
-        max-width: 250px;
-    }
-    .nome{
-        font-size: 25px;
-        max-width: 250px;
-        position: absolute;
-        top: 55px;
-    }
-    .sobre{
-        font-size: 15px;
-        position: absolute;
-        top: 80px;
-    }
+body{
+background-color: white;
+max-width: 250px;
+}
+.nome{
+font-size: 25px;
+max-width: 250px;
+position: absolute;
+top: 55px;
+}
+.sobre{
+font-size: 15px;
+position: absolute;
+top: 80px;
+}
 
-    .subtitulo{
-        position: absolute;
-        top: 140px;
-        font-size: 15px;
-    }
+.subtitulo{
+position: absolute;
+top: 140px;
+font-size: 15px;
+}
 }
 
 @media screen and (min-width:500px) {
-    body{
-        background-color: white;
-        max-width: 300px;
-    }
+body{
+background-color: white;
+max-width: 300px;
+}
 
-    .nome{
-        font-size: 25px;
-        max-width: 300px;
-        position: absolute;
-        top: 55px;
-    }
+.nome{
+font-size: 25px;
+max-width: 300px;
+position: absolute;
+top: 55px;
+}
 
-    .menu-vertical ul{
-        display: grid;
-        top: 6%;
-        float: left;
-        width: 100%;
-    }
-    
-    .subtitulo{
-        position: absolute;
-        top: 140px;
-        font-size: 15px;
-    }
+.menu-vertical ul{
+display: grid;
+top: 6%;
+float: left;
+width: 100%;
+}
+
+.subtitulo{
+position: absolute;
+top: 140px;
+font-size: 15px;
+}
 }
 
 @media screen and (min-width:600px) {
-    body{
-        background-color: white;
-        max-width: 380px;
-    }
+body{
+background-color: white;
+max-width: 380px;
+}
 
-    .nome{
-        font-size: 25px;
-        max-width: 250px;
-        position: absolute;
-        top: 60px;
-    }
+.nome{
+font-size: 25px;
+max-width: 250px;
+position: absolute;
+top: 60px;
+}
 
-    .subtitulo{
-        position: absolute;
-        top: 120px;
-        font-size: 15px;
-    }
+.subtitulo{
+position: absolute;
+top: 120px;
+font-size: 15px;
+}
 
-    .fotoalex img{
-        position: absolute;
-        display: flex;
-        right: inherit;
-        top: 70px;
-        width: 100px;
-        height: 100px;
-        border-radius: 50%;
-    }
+.fotoalex img{
+position: absolute;
+display: flex;
+right: inherit;
+top: 70px;
+width: 100px;
+height: 100px;
+border-radius: 50%;
+}
 
-    .menu ul {
-        font-size: 18px;
-        width: 100%;
-    }
+.menu ul {
+font-size: 18px;
+width: 100%;
+}
 }
 
 @media screen and (min-width:768px) {
-    body{
-        background-color: white;
-        max-width: 550px;
-    }
-    .menu ul {
-        font-size: 18px;
-        width: 97%;
-    }
-    .menu-vertical ul{
-        font-size: 18px;
-        display: grid;
-        top: 6%;
-        float: left;
-    }
-    .fotoalex img{
-        position: absolute;
-        display: flex;
-        right: inherit;
-        top: 70px;
-        width: 100px;
-        height: 100px;
-        border-radius: 50%;
-    }
-    .sobre{
-        font-size: 18px;
-        position: absolute;
-        top: 65px;
-    }
-    .nome{
-        font-size: 30px;
-        max-width: 500px;
-        position: absolute;
-        top: 55px;
-    }
+body{
+background-color: white;
+max-width: 550px;
+}
+.menu ul {
+font-size: 18px;
+width: 97%;
+}
+.menu-vertical ul{
+font-size: 18px;
+display: grid;
+top: 6%;
+float: left;
+}
+.fotoalex img{
+position: absolute;
+display: flex;
+right: inherit;
+top: 70px;
+width: 100px;
+height: 100px;
+border-radius: 50%;
+}
+.sobre{
+font-size: 18px;
+position: absolute;
+top: 65px;
+}
+.nome{
+font-size: 30px;
+max-width: 500px;
+position: absolute;
+top: 55px;
+}
 }
 
 @media screen and (min-width:820px) {
-    body{
-        background-color: white;
-        max-width: 610px;
-    }
-    .menu ul {
-        font-size: 18px;
-        width: 98.95%;
-    }
-    .menu-vertical ul{
-        font-size: 18px;
-        display: grid;
-        top: 6%;
-        float: left;
-    }
-    .fotoalex img{
-        position: absolute;
-        display: flex;
-        right: inherit;
-        width: 100px;
-        height: 100px;
-        border-radius: 50%;
-    }
+body{
+background-color: white;
+max-width: 610px;
+}
+.menu ul {
+font-size: 18px;
+width: 98.95%;
+}
+.menu-vertical ul{
+font-size: 18px;
+display: grid;
+top: 6%;
+float: left;
+}
+.fotoalex img{
+position: absolute;
+display: flex;
+right: inherit;
+width: 100px;
+height: 100px;
+border-radius: 50%;
+}
 
 
-    .sobre{
-        font-size: 20px;
-        position: absolute;
-        top: 125px;
-    }
-    .nome{
-        font-size: 36px;
-        max-width: 700px;
-        position: absolute;
-        top: 70px;
-    }
+.sobre{
+font-size: 20px;
+position: absolute;
+top: 125px;
+}
+.nome{
+font-size: 36px;
+max-width: 700px;
+position: absolute;
+top: 70px;
+}
 
-    .subtitulo{
-        position: absolute;
-        top: 160px;
-        font-size: 15px;
-    }
+.subtitulo{
+position: absolute;
+top: 160px;
+font-size: 15px;
+}
 }
 
 @media screen and (min-width:900px) {
-    body{
-        background-color: white;
-        max-width: 690px;
-    }
+body{
+background-color: white;
+max-width: 690px;
+}
 
-    #mais{
-        display: none;
-    }
+#mais{
+display: none;
+}
 
-    .menu ul {
-        color: #CCC;
-        font-size: 18px;
-        width: 98%;
-    }
+.menu ul {
+color: #CCC;
+font-size: 18px;
+width: 98%;
+}
 
-    .nome{
-        font-size: 35px;
-        max-width: 700px;
-        position: absolute;
-        top: 80px;
-    }
+.nome{
+font-size: 35px;
+max-width: 700px;
+position: absolute;
+top: 80px;
+}
 
-    .subtitulo{
-        position: absolute;
-        top: 160px;
-        font-size: 15px;
-    }
+.subtitulo{
+position: absolute;
+top: 160px;
+font-size: 15px;
+}
 
-    .subtitulo{
-        position: absolute;
-        top: 160px;
-        font-size: 15px;
-    }
+.subtitulo{
+position: absolute;
+top: 160px;
+font-size: 15px;
+}
 
 
 }
 
 @media screen and (min-width:1080px) {
-    body{
-        background-color: #ffffff;
-    }
+body{
+background-color: #ffffff;
+}
 
-    .nome{
-        font-size: 40px;
-        max-width: 800px;
-        position: absolute;
-        top: 80px;
-    }
+.nome{
+font-size: 40px;
+max-width: 800px;
+position: absolute;
+top: 80px;
+}
 
-    .menu ul {
-        font-size: 24px;
-        top: 10px;
-        width: 98   %;
-    }
+.menu ul {
+font-size: 24px;
+top: 10px;
+width: 98%;
+}
 
-    .menu-vertical ul{
-        font-size: 22px;
-        display: grid;
-    }
+.menu-vertical ul{
+font-size: 22px;
+display: grid;
+}
 
-    .subtitulo{
-        position: absolute;
-        top: 140px;
-        font-size: 20px;
-    }
+.subtitulo{
+position: absolute;
+top: 140px;
+font-size: 20px;
+}
 
-    .fotoalex img{
-        position: absolute;
-        display: flex;
-        right: inherit;
-        top: 80px;
-        width: 200px;
-        height: 200px;
-        border-radius: 50%;
-    }
+.fotoalex img{
+position: absolute;
+display: flex;
+right: inherit;
+top: 80px;
+width: 200px;
+height: 200px;
+border-radius: 50%;
+}
 
 }
 
 @media screen and (min-width:1100px) {
-    body{
-        background-color: white;
-        max-width: 800px;
-    }
+body{
+background-color: white;
+max-width: 800px;
+}
 
-    .nome{
-        font-size: 40px;
-        max-width: 800px;
-        position: absolute;
-        top: 80px;
-    }
+.nome{
+font-size: 40px;
+max-width: 800px;
+position: absolute;
+top: 80px;
+}
 
 
 }
 
 @media screen and (min-width:1200px) {
-    body{
-        background-color: white;
-        max-width: 900px;
-    }
+body{
+background-color: white;
+max-width: 900px;
+}
 
-    .nome{
-        font-size: 40px;
-        max-width: 800px;
-        position: absolute;
-        top: 60px;
-    }
+.nome{
+font-size: 40px;
+max-width: 800px;
+position: absolute;
+top: 60px;
+}
 
 
 }
 
 @media screen and (min-width:1440px) {
-    body{
-        background-color: white;
-        max-width: 1100px;
-    }
-    .fotoalex img{
-        position: absolute;
-        display: flex;
-        right: inherit;
-        width: 300px;
-        height: 300px;
-    }
+body{
+background-color: white;
+max-width: 1100px;
+}
+.fotoalex img{
+position: absolute;
+display: flex;
+right: inherit;
+width: 300px;
+height: 300px;
+}
 
-    .nome{
-        font-size: 35px;
-        position: absolute;
-        top: 80px;
-    }
-    .sobre{
-        font-size: 20px;
-        position: absolute;
-        top: 75px;
-    }
+.nome{
+font-size: 35px;
+position: absolute;
+top: 80px;
+}
+.sobre{
+font-size: 20px;
+position: absolute;
+top: 75px;
+}
 }
 
 @media screen and (min-width:2500px) {
-    body{
-        background-color: white;
-        max-width: 1800px;
-    }
-    .sobre{
-        font-size: 37px;
-        position: absolute;
-        top: 135px;
-    }
-    .nome{
-        font-size: 70px;
-        position: absolute;
-        top: 55px;
-    }
-    .menu-vertical ul{
-        font-size: 35px;
-        display: grid;
-        top: 26;
-        float: left;
-    }
-    .menu ul {
-        font-size: 35px;
-        width: 100%;
-    }
+body{
+background-color: white;
+max-width: 1800px;
+}
+.sobre{
+font-size: 37px;
+position: absolute;
+top: 135px;
+}
+.nome{
+font-size: 70px;
+position: absolute;
+top: 55px;
+}
+.menu-vertical ul{
+font-size: 35px;
+display: grid;
+top: 26;
+float: left;
+}
+.menu ul {
+font-size: 35px;
+width: 100%;
+}
 
-    .fotoalex img{
-        position: absolute;
-        display: flex;
-        right: inherit;
-        width: 350px;
-        height: 350px;
-    }
+.fotoalex img{
+position: absolute;
+display: flex;
+right: inherit;
+width: 350px;
+height: 350px;
+}
 }
 
 .menu {
-    background-color: #000000;
+background-color: #000000;
 }
 
 
 ul {
-    width: 98%;
-    background-color: black;
-    position: absolute;
+width: 98%;
+background-color: black;
+position: absolute;
 }
-    
+
 li {
-    list-style: none;
-    margin: 10px;
-    display: inline;
-    }
+list-style: none;
+margin: 10px;
+display: inline;
+}
 
 li a {
-        padding: 8px 20px;
-        border: 0px solid #CCC; 
-        background: black;
-        text-decoration: none;
-        color:#ffffff;
-        /* cantos arredondados */
-        -webkit-border-radius:5px;
-        -moz-border-radius:5px;
-        border-radius:5px;
-    }
+padding: 8px 20px;
+border: 0px solid #CCC; 
+background: black;
+text-decoration: none;
+color:#ffffff;
+/* cantos arredondados */
+-webkit-border-radius:5px;
+-moz-border-radius:5px;
+border-radius:5px;
+}
 li a:hover {
-        background: #CCC;
-        color: #000; 
-        border-color: #0011ff;
-    }
+background: #CCC;
+color: #000; 
+border-color: #0011ff;
+}
 
 .nomefoto{
-    width: 75%;
+width: 75%;
 }
 
 .fotoalex{
-    position: absolute;
-    top: 1%;
-    width: 15,5%;
-    right: 2%;    
+position: absolute;
+top: 1%;
+width: 15,5%;
+right: 2%;    
 }
 
 .menu-vertical ul{
-    margin: -5px;
-    top: 15%;
-    width: 0%;
-    padding: 0%;
-    float: left;
+margin: -5px;
+top: 15%;
+width: 0%;
+padding: 0%;
+float: left;
 }
 
 .menu-vertical ul li {
-    padding: 0px auto;
-    border-bottom: 1px solid #CCC;
-    text-align: left;
-    list-style-type: none;
-    }
+padding: 0px auto;
+border-bottom: 1px solid #CCC;
+text-align: left;
+list-style-type: none;
+}
 
 .menu-vertical a:link {
-    background-color: black;
-    color: white;
-    font-weight: bold;
-    text-decoration: none;
-    padding: 11px;
-    display: block;
-    }
+background-color: black;
+color: white;
+font-weight: bold;
+text-decoration: none;
+padding: 11px;
+display: block;
+}
 
 .menu-vertical a:hover {
-    background-color: #CCC;
-    color: black;
-    }
+background-color: #CCC;
+color: black;
+}
 
 .sobre{
-    position: relative;
+position: relative;
 }
 
 .opcao_resumo_index{
-    display: relative;
-    font-size: 20px;
+display: relative;
+font-size: 20px;
 }
 
 .imgtaubate{
-   text-align: center;
+text-align: center;
 }
 
 .textohistoria1{
-    font-size: 20px;
+font-size: 20px;
 }
 
 .textohistoria2{
-    font-size: 20px;
+font-size: 20px;
 }
 
 .textohistoria3{
-    font-size: 20px;
+font-size: 20px;
 }
 
 .imggame1{
-    text-align: center;
+text-align: center;
 }
 
 .linkemulador {
-    font-family:Verdana, Geneva, sans-serif;
-    
-    font-size:20px;
-    
-    border-radius:10px;
-    
-    padding-left:9px;
-    
-    padding-right:12px;
-    
-    padding-top:5px;
-    
-    padding-bottom:5px;
-    
-    color:#ffffff;
-    
-    background-color:#3300ff;
-    
-    outline:none;
-    
-    border:none;
-    
-    cursor:pointer;
-    
-    display:inline-block;
-    
-    text-decoration: none;
-    
-    transition: .4s;
-    
-    }
-    
-    .linkemulador:hover {
-    color:#ffffff;
-    
-    background-color:#00ff33;
-    
-    }
+font-family:Verdana, Geneva, sans-serif;
+font-size:20px;
+border-radius:10px;
+padding-left:9px;
+padding-right:12px;
+padding-top:5px;
+padding-bottom:5px;
+color:#ffffff;
+background-color:#3300ff;
+outline:none;
+border:none;
+cursor:pointer;
+display:inline-block;
+text-decoration: none;
+transition: .4s;
+}
 
-    .consoleatari2600 {
-        text-align: center;
-    }
+.linkemulador:hover {
+color:#ffffff;
+background-color:#00ff33;
+}
 
-    .confgdio {
-        color: grey;
-    }
+.consoleatari2600 {
+text-align: center;
+}
 
-    .linksredesociallinkedin {
-        color: black;
-    }
+.confgdio {
+color: grey;
+}
 
-    .linksredesocialgithub {
-        color: black;
-    }
+.linksredesociallinkedin {
+color: black;
+}
 
-    .fam {
-        color: black;
-    }
+.linksredesocialgithub {
+color: black;
+}
+
+.fam {
+color: black;
+}
+
+.titulogostos{
+text-align: center;
+font-size: 25px;
+}
+
+.textgostos{
+font-size: 20px;
+}
+
+.botaogosto {
+font-family:Verdana, Geneva, sans-serif;
+font-size:20px;
+border-radius:10px;
+padding-left:9px;
+padding-right:12px;
+padding-top:5px;
+padding-bottom:5px;
+color:#ffffff;
+background-color:#000000;
+outline:none;
+border:none;
+cursor:pointer;
+display:inline-block;
+text-decoration: none;
+transition: .4s;
+}
+.botaogosto:hover {
+color:#ffffff;
+background-color:#00ff33;
+}

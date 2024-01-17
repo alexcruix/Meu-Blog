@@ -16,3 +16,8 @@ document.addEventListener("DOMContentLoaded", function () {
     // Atualiza o elemento HTML com a idade calculada
     document.getElementById("idade").innerText = idadeEmAnos;
 });
+
+function playSound() {
+    var audio = document.getElementById('botaoSom');
+    audio.play();
+}

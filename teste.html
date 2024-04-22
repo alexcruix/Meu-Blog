@@ -36,7 +36,22 @@
 <p class="sobre">
     <br><br><br><br>
 
+    <script type="text/javascript">
 
+        function soma(){
+            var a = parseInt(document.getElementById("a").value);
+            var b = parseInt(document.getElementById("b").value);
+            var r = a + b;
+            document.write(r + " <button onClick='location.reload()'>Voltar</button>");
+        }
+
+    </script>
+    <form>
+        <input type="text" id="a">
+        <input type="text" id="b">
+        <button onclick="soma()">S</button>
+        <button onclick="refresh">Voltar</button>
+    </form>
 </p>
 </body>
 </html>

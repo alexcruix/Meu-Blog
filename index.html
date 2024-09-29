@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Alex de Campos Santos Toledo Camilo" />
+ <head>
+    <style>
+        body {
+                 margin: 0;
+                 font-family: Arial, sans-serif;
+                 background: linear-gradient(to right, #333, #666);
+             }
+             .container {
+                 display: flex;
+                 flex-direction: column;
+                 height: 100vh;
+                 align-items: center;
+                 justify-content: center;
+                 color: white;
+                 padding: 20px;
+             }
+             .left-section {
+                 display: flex;
+                 flex-direction: column;
+                 align-items: center;
+                 justify-content: center;
+                 position: relative;
+                 margin-bottom: 20px;
+             }
+             .left-section img.profile {
+                 border-radius: 50%;
+                 width: 100%;
+                 max-width: 450px;
+                 height: auto;
+                 object-fit: cover;
+                 margin-top: 20px;
+             }
+             .left-section .name {
+                 font-size: 6vw;
+                 font-weight: bold;
+                 text-align: center;
+                 margin-bottom: 20px;
+                 margin-top: 20px;
+             }
+             .right-section {
+                 display: flex;
+                 align-items: center;
+                 justify-content: center;
+                 width: 100%;
+             }
+             .right-section .menu {
+                 background: #888;
+                 padding: 20px;
+                 border-radius: 10px;
+                 width: 100%;
+                 max-width: 600px;
+                 height: auto;
+                 display: flex;
+                 flex-direction: column;
+                 align-items: center;
+                 justify-content: center;
+             }
+             .right-section .menu a {
+                 display: block;
+                 width: 80%;
+                 padding: 20px;
+                 margin: 10px 0;
+                 background: white;
+                 border: none;
+                 border-radius: 20px;
+                 font-size: 4vw;
+                 cursor: pointer;
+                 text-align: center;
+                 text-decoration: none;
+                 color: black;
+             }
+             .right-section .menu a:hover {
+                 background: #ddd;
+             }
+             .skills {
+                 display: flex;
+                 justify-content: center;
+                 margin-top: 20px;
+                 flex-wrap: wrap;
+             }
+             .skills img {
+                 width: 20vw;
+                 max-width: 100px;
+                 height: auto;
+                 margin: 10px;
+             }
+             @media (min-width: 768px) {
+                 .container {
+                     flex-direction: row;
+                 }
+                 .left-section {
+                     flex: 1;
+                     margin-bottom: 0;
+                 }
+                 .right-section {
+                     flex: 1;
+                 }
+                 .left-section .name {
+                     font-size: 36px;
+                     margin-top: 0;
+                 }
+                 .right-section .menu a {
+                     font-size: 24px;
+                 }
+             }
+       </style>
+ </head>
+ <body>
+  <div class="container">
+   <div class="left-section">
+    <div class="name"> 
+             Alex de Campos Santos Toledo Camilo
+    </div>
+    <img alt="Close-up of a person's face" class="profile" height="450" src="img/alex.jpeg" width="450"/>
+    <div class="skills">
+        <img alt="HTML5 logo" height="100" src="img/html5.png" width="50"/>
+        <img alt="CSS3 logo" height="100" src="img/css3.png" width="50"/>
+        <img alt="JavaScript logo" height="100" src="img/javascript.png" width="50"/>
+    </div>
+   </div>
+   <div class="right-section">
+    <div class="menu">
+        <a href="inicial.html">Currículo</a>
+        <a href="hardskill.html">Hard Skill</a>
+        <a href="softskill.html">Soft Skill</a>
+        <a href="historia.html">História</a>
+        <a href="projetos.html">Projetos</a>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

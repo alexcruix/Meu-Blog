@@ -1,0 +1,178 @@
+/* Reseta o estilo básico e remove margens/paddings padrão */
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box; /* Garante que o padding e a borda não aumentem o tamanho dos elementos */
+}
+
+/* Estilização do corpo da página */
+body {
+    margin-top: 100px;
+    text-align: center;
+    font-family: Arial; /* Define uma fonte padrão */
+    line-height: 1.6; /* Ajusta a altura das linhas para uma melhor legibilidade */
+    background-color: #f4f4f4; /* Define uma cor de fundo suave */
+    color: #333; /* Define a cor padrão do texto */
+    display: flex; /* Usado para centralizar o conteúdo principal */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente (para páginas de altura fixa) */
+    min-height: 100vh; /* Garante que o conteúdo ocupe toda a altura da tela */
+}
+
+.menu {
+    position: fixed; /* Fixa o menu no topo da página */
+    top: -10px; /* Alinha o menu no topo */
+    left: 0;
+    width: 100%; /* Faz o menu ocupar toda a largura da página */
+    background: grey;
+    border-radius: 10px; /* Remove cantos arredondados se preferir */
+    text-align: center;
+    z-index: 1000; /* Garante que o menu fique sobreposto ao conteúdo */
+}
+
+.menu ul{
+    display:inline-flex;
+    margin: 25px;
+}
+
+.menu li{
+    font-size: 20px;
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.menu ul li a{
+    color: white;
+    padding: 30px;
+}
+
+.menu ul li a:hover{
+    color: black;
+    background-color: white;
+}
+
+.liguagem-programacao{
+    position: fixed; /* Fixa a posição na página */
+    top: 50%; /* Centraliza verticalmente */
+    right: 20px; /* Distância da borda direita */
+    transform: translateY(-50%); /* Ajusta para centralizar verticalmente */
+    display: flex; /* Usando flexbox para alinhar as imagens */
+    flex-direction: column; /* Coloca as imagens em coluna */
+    align-items: center; /* Centraliza as imagens horizontalmente */
+    z-index: 1000; /* Garante que fique acima de outros elementos */
+    background-color: rgb(255, 255, 255); /* Fundo semi-transparente */
+    padding: 10px; /* Espaçamento interno */
+    border-radius: 5px; /* Bordas arredondadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra para efeito visual */
+}
+
+.linguagem-programacao img {
+    margin-bottom: 10px; /* Espaçamento entre as imagens */
+    width: 50px; /* Largura fixada para as imagens */
+    height: auto; /* Altura automática para manter proporções */
+}
+
+.menu-vertical {
+    position: fixed; /* Fixa o menu na lateral da página */
+    top: 130px; /* Alinha o menu ao topo */
+    left: -20px; /* Coloca o menu na lateral esquerda */
+    width: 200px; /* Largura do menu */
+    background-color: grey; /* Cor de fundo do menu */
+    height: 200px; /* Altura total da página */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 10px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5); /* Sombra para efeito visual */
+}
+
+.menu-vertical ul {
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o padding padrão */
+}
+
+.menu-vertical li {
+    margin-bottom: 15px; /* Espaço entre os itens */
+}
+
+.menu-vertical a {
+    color: white; /* Cor do texto */
+    text-decoration: none; /* Remove o sublinhado */
+    display: block; /* Faz o link ocupar toda a largura do item */
+    padding: 10px; /* Espaçamento interno dos links */
+}
+
+.menu-vertical a:hover {
+    background-color: white; /* Fundo do link ao passar o mouse */
+    color: black; /* Cor do texto ao passar o mouse */
+}
+
+
+.link-menu{
+    width: 150px;
+}
+
+.folha-curriculo{
+    margin-top: 150px;
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+    -webkit-box-shadow: 20px 20px 15px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 20px 20px 15px 1px rgba(0,0,0,0.75);
+    box-shadow: 20px 20px 15px 1px rgba(0,0,0,0.75);
+    border: 1px solid grey;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.curriculo-nome{
+    text-align: right;
+}
+
+.curriculo-informacao{
+    text-align: right;
+}
+
+/* Container do currículo */
+.curriculo {
+    width: 1000px; /* Define a largura do currículo */
+    background-color: white;
+    padding: 30px;
+    border-radius: 0px;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+/* Cabeçalho do currículo */
+.curriculo h1 {
+    font-size: 28px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Links do currículo */
+.curriculo a {
+    color: #0077b5; /* Cor dos links */
+    text-decoration: none;
+}
+
+.curriculo a:hover {
+    text-decoration: underline;
+}
+
+/* Títulos das seções */
+.curriculo strong {
+    font-size: 18px;
+    color: #222;
+    display: block;
+    margin-top: 20px;
+}
+
+/* Parágrafos */
+.curriculo p {
+    margin: 10px 0;
+    line-height: 1.5;
+}
+
+.curriculo-especificacao{
+    margin-top: 100px;
+}

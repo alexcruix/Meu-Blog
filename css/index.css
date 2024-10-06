@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-image: url('/Meu-Blog/img/imagem\ de\ fundo\ index.png'); /* Imagem de fundo */
+    background-image: url('/Meu-Blog/img/imagem_de_fundo_index.png'); /* Imagem de fundo */
     background-size: cover;
     background-attachment: fixed;
     background-position: center;

@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('/Meu-Blog/img/imagem\ de\ fundo\ index.png'); /* Imagem de fundo */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto-alex-index {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.foto-alex-index img.profile {
+    border-radius: 50%;
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+    border: 5px solid white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.links-around {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centraliza a área dos links ao redor da imagem */
+    display: flex;
+    flex-wrap: wrap;              /* Envolve os links em volta da imagem */
+    justify-content: center;
+    align-items: center;
+    width: 600px;                 /* Largura ao redor da imagem para distribuir os links */
+    height: 600px;                /* Altura ao redor da imagem */
+    pointer-events: none;         /* Para evitar interferência de clique na área */
+}
+
+/* Definindo a posição dos links em um formato circular */
+.links-around a.link {
+    position: absolute;
+    width: 120px;                 /* Largura dos botões de link */
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    pointer-events: auto;         /* Permite que os links sejam clicáveis */
+    transition: transform 0.3s ease;
+}
+
+/* Posicionamento dos links ao redor da imagem em um formato circular */
+.links-around a.link:nth-child(1) {
+    top: -10px;                   /* Link superior */
+    left: 40%;
+    transform: rotate(0deg);
+}
+
+.links-around a.link:nth-child(2) {
+    top: 15%;
+    left: 500px;                  /* Link à direita */
+    transform: rotate(50deg);
+}
+
+.links-around a.link:nth-child(3) {
+    bottom: 60px;                /* Link inferior */
+    left: 80%;
+    transform: rotate(315deg);
+}
+
+.links-around a.link:nth-child(4) {
+    bottom: 10%;
+    left: -10px;                 /* Link à esquerda */
+    transform: rotate(50deg);
+}
+
+.links-around a.link:nth-child(5) {
+    top: 15%;
+    left: -10px;                  /* Link superior esquerdo */
+    transform: rotate(-50deg);
+}
+
+.links-around a.link:hover {
+    background: linear-gradient(45deg, #0400ff, #45458f, #4e4e72 ,#999999); /* Efeito de gradiente */
+    transform: scale(1.5); /* Animação ao passar o mouse */
+    color: white; /* Alterar a cor do texto para branco para melhor contraste */
+}
+
+
+/* Ícones de linguagens no canto direito */
+.linguagem-programacao {
+    position: fixed;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.linguagem-programacao img {
+    width: 50px;
+    height: auto;
+}
+.name {
+    font-size: 3em; /* Aumenta o tamanho da fonte */
+    font-weight: bold; /* Deixa a fonte em negrito */
+    text-align: center; /* Centraliza o texto */
+    color: #ffffff; /* Cor do texto (branco) */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra para dar profundidade */
+    position: absolute; /* Para posicionar no centro da tela */
+    top: 8%; /* Centraliza verticalmente */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta para que o texto fique exatamente no centro */
+    z-index: 10; /* Garante que o texto fique acima de outros elementos */
+    padding: 20px; /* Espaçamento ao redor do texto */
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para destaque */
+    border-radius: 10px; /* Bordas arredondadas para suavizar */
+}

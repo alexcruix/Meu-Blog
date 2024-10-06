@@ -42,6 +42,10 @@ body {
     object-fit: cover;
     border: 5px solid white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000; /* Garante que o menu fique sobreposto ao conteúdo */
+    -webkit-box-shadow: 20px 20px 15px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 20px 20px 15px 1px rgba(0,0,0,0.75);
+    box-shadow: 20px 20px 15px 1px rgba(0,0,0,0.75);
 }
 
 .links-around {
@@ -79,30 +83,50 @@ body {
     top: -10px;                   /* Link superior */
     left: 40%;
     transform: rotate(0deg);
+    z-index: 1000; /* Garante que o menu fique sobreposto ao conteúdo */
+    -webkit-box-shadow: 20px 20px 15px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 20px 20px 15px 1px rgba(0,0,0,0.75);
+    box-shadow: 20px 20px 15px 1px rgba(0,0,0,0.75);
 }
 
 .links-around a.link:nth-child(2) {
     top: 15%;
     left: 500px;                  /* Link à direita */
     transform: rotate(50deg);
+    z-index: 1000; /* Garante que o menu fique sobreposto ao conteúdo */
+    -webkit-box-shadow: 20px 20px 15px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 20px 20px 15px 1px rgba(0,0,0,0.75);
+    box-shadow: 20px 20px 15px 1px rgba(0,0,0,0.75);
 }
 
 .links-around a.link:nth-child(3) {
     bottom: 60px;                /* Link inferior */
     left: 80%;
     transform: rotate(315deg);
+    z-index: 1000; /* Garante que o menu fique sobreposto ao conteúdo */
+    -webkit-box-shadow: 20px 20px 15px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 20px 20px 15px 1px rgba(0,0,0,0.75);
+    box-shadow: 20px 20px 15px 1px rgba(0,0,0,0.75);
 }
 
 .links-around a.link:nth-child(4) {
     bottom: 10%;
     left: -10px;                 /* Link à esquerda */
     transform: rotate(50deg);
+    z-index: 1000; /* Garante que o menu fique sobreposto ao conteúdo */
+    -webkit-box-shadow: 20px 20px 15px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 20px 20px 15px 1px rgba(0,0,0,0.75);
+    box-shadow: 20px 20px 15px 1px rgba(0,0,0,0.75);
 }
 
 .links-around a.link:nth-child(5) {
     top: 15%;
     left: -10px;                  /* Link superior esquerdo */
     transform: rotate(-50deg);
+    z-index: 1000; /* Garante que o menu fique sobreposto ao conteúdo */
+    -webkit-box-shadow: 20px 20px 15px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 20px 20px 15px 1px rgba(0,0,0,0.75);
+    box-shadow: 20px 20px 15px 1px rgba(0,0,0,0.75);
 }
 
 .links-around a.link:hover {
@@ -125,6 +149,10 @@ body {
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000; /* Garante que o menu fique sobreposto ao conteúdo */
+    -webkit-box-shadow: 20px 20px 15px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 20px 20px 15px 1px rgba(0,0,0,0.75);
+    box-shadow: 20px 20px 15px 1px rgba(0,0,0,0.75);
 }
 
 .linguagem-programacao img {
@@ -141,7 +169,7 @@ body {
     top: 8%; /* Centraliza verticalmente */
     left: 50%; /* Centraliza horizontalmente */
     transform: translate(-50%, -50%); /* Ajusta para que o texto fique exatamente no centro */
-    z-index: 10; /* Garante que o texto fique acima de outros elementos */
+    z-index: -1; /* Garante que o texto fique acima de outros elementos */
     padding: 20px; /* Espaçamento ao redor do texto */
     background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para destaque */
     border-radius: 10px; /* Bordas arredondadas para suavizar */

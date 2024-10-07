@@ -1,57 +1,37 @@
+/* Estilos gerais */
 body {
-    margin: 0;
     font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    position: relative;
+    margin: 0;
+    padding: 0;
 }
 
-/* Estilo para a imagem de fundo */
-.imagemdefundo {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Cobre todo o espaço mantendo a proporção */
-    z-index: -1; /* Coloca a imagem atrás do conteúdo */
+/* Estilo do cabeçalho */
+header {
+    padding: 20px 0; /* Espaçamento em cima e embaixo */
+    position: relative; /* Permite o posicionamento absoluto dos links */
 }
 
-.container {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.foto-alex-index {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.foto-alex-index img.profile {
-    border-radius: 50%;
-    width: 450px;
-    height: 450px;
-    object-fit: cover;
-    border: 5px solid white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    z-index: 1000; /* Garante que o menu fique sobreposto ao conteúdo */
-    -webkit-box-shadow: 20px 20px 15px 1px rgba(0,0,0,0.75);
-    -moz-box-shadow: 20px 20px 15px 1px rgba(0,0,0,0.75);
-    box-shadow: 20px 20px 15px 1px rgba(0,0,0,0.75);
+.name {
+    font-size: 3em; /* Aumenta o tamanho da fonte */
+    font-weight: bold; /* Deixa a fonte em negrito */
+    margin: 0 auto;
+    text-align: center; /* Centraliza o texto */
+    color: #ffffff; /* Cor do texto (branco) */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra para dar profundidade */
+    position: absolute; /* Para posicionar no centro da tela */
+    top: 8%; /* Ajuste a posição vertical conforme necessário */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta para que o texto fique exatamente no centro */
+    z-index: 0; /* Garante que o texto fique acima de outros elementos */
+    padding: 20px; /* Espaçamento ao redor do texto */
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para destaque */
+    border-radius: 10px; /* Bordas arredondadas para suavizar */
 }
 
 .links-around {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 600px;
+    left: 49%;
     transform: translate(-50%, -50%); /* Centraliza a área dos links ao redor da imagem */
     display: flex;
     flex-wrap: wrap;              /* Envolve os links em volta da imagem */
@@ -65,7 +45,7 @@ body {
 /* Definindo a posição dos links em um formato circular */
 .links-around a.link {
     position: absolute;
-    width: 120px;                 /* Largura dos botões de link */
+    width: 130px;                 /* Largura dos botões de link */
     text-align: center;
     padding: 10px;
     background-color: white;
@@ -81,7 +61,7 @@ body {
 /* Posicionamento dos links ao redor da imagem em um formato circular */
 .links-around a.link:nth-child(1) {
     top: -10px;                   /* Link superior */
-    left: 40%;
+    left: 42%;
     transform: rotate(0deg);
     z-index: 1000; /* Garante que o menu fique sobreposto ao conteúdo */
     -webkit-box-shadow: 20px 20px 15px 1px rgba(0,0,0,0.75);
@@ -110,7 +90,7 @@ body {
 }
 
 .links-around a.link:nth-child(4) {
-    bottom: 10%;
+    bottom: 14%;
     left: -10px;                 /* Link à esquerda */
     transform: rotate(50deg);
     z-index: 1000; /* Garante que o menu fique sobreposto ao conteúdo */
@@ -134,10 +114,53 @@ body {
     transform: scale(1.5); /* Animação ao passar o mouse */
     color: white; /* Alterar a cor do texto para branco para melhor contraste */
     background-color: #0400ff;
-    box-shadow: 0 4px 30px rgba(0, 123, 255, 1); /* Adiciona sombra */
-    transition: transform 0.3s ease, background-color 0.6s ease, box-shadow 0.6s ease;
+    box-shadow: 0 4px 30px rgba(0, 123, 255, 5); /* Adiciona sombra */
+    transition: transform 0.6s ease, background-color 0.9s ease, box-shadow 0.9s ease;
 }
 
+/* Estilo para a imagem de fundo */
+.imagemdefundo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Cobre todo o espaço mantendo a proporção */
+    z-index: -1; /* Coloca a imagem atrás do conteúdo */
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto-alex-index {
+    display: flex;
+    position: absolute;
+    top: 570px;
+    left: 20%;
+    z-index: -1; /* Garante que o menu fique sobreposto ao conteúdo ou atrás */
+    transform: translate(-50%, -50%);
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.foto-alex-index img.profile {
+    border-radius: 50%;
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+    border: 5px solid white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: -1; /* Garante que o menu fique sobreposto ao conteúdo ou atrás */
+    -webkit-box-shadow: 20px 20px 15px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 20px 20px 15px 1px rgba(0,0,0,0.75);
+    box-shadow: 20px 20px 15px 1px rgba(0,0,0,0.75);
+}
 
 /* Ícones de linguagens no canto direito */
 .linguagem-programacao {
@@ -162,18 +185,35 @@ body {
     width: 50px;
     height: auto;
 }
-.name {
-    font-size: 3em; /* Aumenta o tamanho da fonte */
-    font-weight: bold; /* Deixa a fonte em negrito */
-    text-align: center; /* Centraliza o texto */
-    color: #ffffff; /* Cor do texto (branco) */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra para dar profundidade */
-    position: absolute; /* Para posicionar no centro da tela */
-    top: 8%; /* Centraliza verticalmente */
-    left: 50%; /* Centraliza horizontalmente */
-    transform: translate(-50%, -50%); /* Ajusta para que o texto fique exatamente no centro */
-    z-index: -1; /* Garante que o texto fique acima de outros elementos */
-    padding: 20px; /* Espaçamento ao redor do texto */
-    background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para destaque */
-    border-radius: 10px; /* Bordas arredondadas para suavizar */
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.social-links {
+    margin-bottom: 8px;
+}
+
+.social-links a {
+    color: white;
+    font-size: 30px;
+    margin: 0 6px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #0400ff; /* Cor de destaque ao passar o mouse */
+}
+
+footer p {
+    margin-top: 5px;
 }

@@ -1,11 +1,13 @@
 * {
     box-sizing: border-box; /* Para garantir que o padding e a borda não afetem as dimensões */
+
 }
 
 html, body {
     margin: 0; /* Remove margens padrão */
     padding: 0; /* Remove espaçamento padrão */
     height: 100%; /* Garante que o corpo ocupe 100% da altura da tela */
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Estilo do cabeçalho */

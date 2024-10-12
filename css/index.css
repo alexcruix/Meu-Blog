@@ -1,9 +1,11 @@
-/* Estilos gerais */
-body {
-    height: 100%;             /* Faz o site ocupar 100% da altura da tela */
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+* {
+    box-sizing: border-box; /* Para garantir que o padding e a borda não afetem as dimensões */
+}
+
+html, body {
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove espaçamento padrão */
+    height: 100%; /* Garante que o corpo ocupe 100% da altura da tela */
 }
 
 /* Estilo do cabeçalho */
@@ -223,11 +225,14 @@ footer p {
 @media (min-width: 2160px) and (max-width: 4096px){
     body {
         height: 1200px;             /* Faz o site ocupar 100% da altura da tela */
-        margin: 0 auto;            /* Centraliza o site horizontalmente */
+        margin: 0;            /* Centraliza o site horizontalmente */
         background-color: #f0f0f0; /* Cor de fundo do site */
         padding: 20px;
         font-size: 60px; /* Aumenta o tamanho da fonte para telas grandes */
         padding: 50px; /* Ajusta o espaçamento */
+        background-size: cover; /* Faz a imagem cobrir toda a área */
+        background-position: center; /* Centraliza a imagem */
+        background-repeat: no-repeat; /* Impede a repetição da imagem */ 
       }
 
       .name {
@@ -336,12 +341,15 @@ footer p {
 /* Para telas menores que 1440px (Tela 2K) */
 @media (min-width: 1920px) and (max-width: 2160px){
     body {
-        height: 1100px;             /* Faz o site ocupar 100% da altura da tela */
-        margin: 0 auto;            /* Centraliza o site horizontalmente */
+        height: 1000px;             /* Faz o site ocupar 100% da altura da tela */
+        margin: 0;            /* Centraliza o site horizontalmente */
         background-color: #f0f0f0; /* Cor de fundo do site */
         padding: 20px;
         font-size: 60px; /* Aumenta o tamanho da fonte para telas grandes */
         padding: 50px; /* Ajusta o espaçamento */
+        background-size: cover; /* Faz a imagem cobrir toda a área */
+        background-position: center; /* Centraliza a imagem */
+        background-repeat: no-repeat; /* Impede a repetição da imagem */    
       }
 
       .name {
@@ -656,11 +664,24 @@ footer p {
     }
 }
 
+@media (min-width: 768px) and (max-width: 1024px) { /* iPad Air */
+    body {
+        height: 00px;             /* Faz o site ocupar 100% da altura da tela */
+        margin: 0 auto;            /* Centraliza o site horizontalmente */
+        background-color: #f0f0f0; /* Cor de fundo do site */
+        padding: 20px;
+        font-size: 20px; /* Aumenta o tamanho da fonte para telas grandes */
+        padding: 50px; /* Ajusta o espaçamento */
+      }
+    .linguagem-programacao {
+        top: 850px;
+    }
+}
+
 /* Para telas menores que 768px (smartphones ou tablets) */
 @media (min-width: 240px) and (max-width: 768px){
     body {
         height: 1200px;              /* Define a altura para ocupar 100% da tela */
-        background-image: url('/Meu-Blog/img/imagem_de_fundo_index.jpeg'); /* Insira o caminho da imagem de fundo */
         margin: 0px auto;           /* Centraliza o site horizontalmente */
         background-color: #f0f0f0;  /* Cor de fundo do site */
         padding: 20px;              /* Espaçamento interno */
@@ -672,6 +693,91 @@ footer p {
     }
     .name {
         font-size: 1.5em;
+        top: 7%;
+    }
+
+    .links-around {
+        display: flex;
+        position: absolute;
+        top: 300px;
+        width: 300px;
+        height: 300px;
+        left: 45%;
+    }
+
+    .links-around a.link:nth-child(2) {
+        top: 15%;
+        left: 260px;                  /* Link à direita */
+        transform: rotate(50deg);
+    }
+
+    .links-around a.link:nth-child(3) {
+        top: 74%;
+        left: 260px;                  /* Link inferior a direita */
+        transform: rotate(312deg);
+    }
+
+    .links-around a.link:nth-child(4) {
+        top: 74%;
+        left: -10px;                  /* Link inferior a esquerda */
+        transform: rotate(50deg);
+    }
+
+    .links-around a.link:hover {
+        background: linear-gradient(45deg, #0400ff, #45458f, #4e4e72 ,#999999); /* Efeito de gradiente */
+        transform: scale(1.5); /* Animação ao passar o mouse */
+        color: white; /* Alterar a cor do texto para branco para melhor contraste */
+        background-color: #0400ff;
+        box-shadow: 0 4px 30px rgba(0, 123, 255, 5); /* Adiciona sombra */
+        transition: transform 0.6s ease, background-color 0.9s ease, box-shadow 0.9s ease;
+    }
+
+    .links-around a.link {
+        width: 68px;
+        font-size: 13px;
+    }
+
+    .foto-alex-index {
+        display: flex;
+        position: absolute;
+        top: 525px;
+        left: 5px;
+        z-index: -1; /* Garante que o menu fique sobreposto ao conteúdo ou atrás */
+    }
+
+    .foto-alex-index img.profile {
+        display: flex;
+        position: absolute;
+        top: -365px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .linguagem-programacao {
+        display: none;
+    }
+
+    footer {
+        font-size: 12px;
+        left: 0px;
+    }
+}
+
+/* Para telas menores que 240px (smartphones ou tablets) */
+@media (min-width: 40px) and (max-width: 240px){
+    body {
+        height: 1200px;              /* Define a altura para ocupar 100% da tela */
+        margin: 0px auto;           /* Centraliza o site horizontalmente */
+        background-color: #f0f0f0;  /* Cor de fundo do site */
+        padding: 20px;              /* Espaçamento interno */
+        font-size: 15px;            /* Ajusta o tamanho da fonte */
+        background-size: cover;     /* Faz a imagem preencher a tela */
+        background-position: center; /* Centraliza a imagem */
+        background-repeat: no-repeat; /* Evita repetição da imagem */
+        background-attachment: fixed; /* Mantém a imagem fixa */
+    }
+    .name {
+        font-size: 1px;
         top: 10%;
     }
 
@@ -735,7 +841,7 @@ footer p {
     .linguagem-programacao {
         position: fixed;
         right: 20px;
-        top: 65%;
+        top: 70%;
     }
 
     .linguagem-programacao img {
@@ -744,6 +850,7 @@ footer p {
 
     footer {
         font-size: 12px;
+        left: 0px;
     }
 }
 
@@ -751,7 +858,6 @@ footer p {
     body {
         height: 100vh;                /* Ocupa 100% da altura da tela */
         margin: 0px auto;             /* Centraliza o site horizontalmente */
-        background-image: url('sua-imagem-de-fundo.jpg'); /* Caminho da imagem */
         background-size: cover;       /* Faz a imagem cobrir toda a tela */
         background-position: center;  /* Centraliza a imagem */
         background-repeat: no-repeat; /* Evita repetição da imagem */

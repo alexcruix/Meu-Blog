@@ -666,26 +666,19 @@ footer p {
     }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) { /* iPad Air */
-    body {
-        height: 00px;             /* Faz o site ocupar 100% da altura da tela */
-        margin: 0 auto;            /* Centraliza o site horizontalmente */
-        background-color: #f0f0f0; /* Cor de fundo do site */
-        padding: 20px;
-        font-size: 20px; /* Aumenta o tamanho da fonte para telas grandes */
-        padding: 50px; /* Ajusta o espaçamento */
-      }
+@media (min-width: 768px) and (max-width: 1224px) { /* iPad Air */
     .linguagem-programacao {
         top: 850px;
     }
 }
 
 /* Para telas menores que 768px (smartphones ou tablets) */
-@media (min-width: 240px) and (max-width: 768px){
+@media (min-width: 320px) and (max-width: 768px){
     body {
         height: 1200px;              /* Define a altura para ocupar 100% da tela */
+        width: 100%;
         margin: 0px auto;           /* Centraliza o site horizontalmente */
-        background-color: #f0f0f0;  /* Cor de fundo do site */
+        background-color: #B8BCBE;  /* Cor de fundo do site */
         padding: 20px;              /* Espaçamento interno */
         font-size: 15px;            /* Ajusta o tamanho da fonte */
         background-size: cover;     /* Faz a imagem preencher a tela */
@@ -765,12 +758,20 @@ footer p {
     }
 }
 
-/* Para telas menores que 240px (smartphones ou tablets) */
-@media (min-width: 40px) and (max-width: 240px){
+@media (orientation: landscape) {
     body {
-        height: 1200px;              /* Define a altura para ocupar 100% da tela */
+        height: 800px;                /* Ocupa 100% da altura da tela */
+        background-color: #B8BCBE;
+    }
+}
+
+/* Para telas menores que 768px (smartphones ou tablets) */
+@media (min-width: 40px) and (max-width: 320px){
+    body {
+        height: 580px;              /* Define a altura para ocupar 100% da tela */
+        width: 100%;
         margin: 0px auto;           /* Centraliza o site horizontalmente */
-        background-color: #f0f0f0;  /* Cor de fundo do site */
+        background-color: #B8BCBE;  /* Cor de fundo do site */
         padding: 20px;              /* Espaçamento interno */
         font-size: 15px;            /* Ajusta o tamanho da fonte */
         background-size: cover;     /* Faz a imagem preencher a tela */
@@ -779,35 +780,49 @@ footer p {
         background-attachment: fixed; /* Mantém a imagem fixa */
     }
     .name {
-        font-size: 1px;
-        top: 10%;
+        font-size: 25px;
+        left: 160px;
+        top: 7%;
     }
 
     .links-around {
         display: flex;
         position: absolute;
-        top: 350px;
+        top: 300px;
         width: 300px;
         height: 300px;
         left: 45%;
     }
 
+    /* Posicionamento dos links ao redor da imagem em um formato circular */
+    .links-around a.link:nth-child(1) {
+        top: -6%;                   /* Link superior */
+        left: 45%;
+        transform: rotate(0deg);
+    }
+
     .links-around a.link:nth-child(2) {
         top: 15%;
-        left: 260px;                  /* Link à direita */
-        transform: rotate(50deg);
+        left: 45%;                  /* Link à direita */
+        transform: rotate(0deg);
     }
 
     .links-around a.link:nth-child(3) {
-        top: 74%;
-        left: 260px;                  /* Link inferior a direita */
-        transform: rotate(312deg);
+        top: 35%;                /* Link inferior */
+        left: 45%;
+        transform: rotate(0deg);
     }
 
     .links-around a.link:nth-child(4) {
-        top: 74%;
-        left: -10px;                  /* Link inferior a esquerda */
-        transform: rotate(50deg);
+        top: 55%;
+        left: 45%;                 /* Link à esquerda */
+        transform: rotate(0deg);
+    }
+
+    .links-around a.link:nth-child(5) {
+        top: 80%;
+        left: 45%;                  /* Link superior esquerdo */
+        transform: rotate(0deg);
     }
 
     .links-around a.link:hover {
@@ -820,49 +835,32 @@ footer p {
     }
 
     .links-around a.link {
-        width: 90px;
-        font-size: 15px;
+        width: 68px;
+        font-size: 13px;
     }
 
     .foto-alex-index {
-        display: flex;
+        display: none;
         position: absolute;
-        top: 570px;
-        left: 50%;
+        top: 525px;
+        left: 5px;
         z-index: -1; /* Garante que o menu fique sobreposto ao conteúdo ou atrás */
     }
 
     .foto-alex-index img.profile {
-        display: flex;
+        display: none;
         position: absolute;
-        top: -370px;
+        top: -365px;
         width: 200px;
         height: 200px;
     }
 
     .linguagem-programacao {
-        position: fixed;
-        right: 20px;
-        top: 70%;
-    }
-
-    .linguagem-programacao img {
-        width: 40px;
+        display: none;
     }
 
     footer {
         font-size: 12px;
         left: 0px;
-    }
-}
-
-@media (orientation: landscape) {
-    body {
-        height: 100vh;                /* Ocupa 100% da altura da tela */
-        margin: 0px auto;             /* Centraliza o site horizontalmente */
-        background-size: cover;       /* Faz a imagem cobrir toda a tela */
-        background-position: center;  /* Centraliza a imagem */
-        background-repeat: no-repeat; /* Evita repetição da imagem */
-        background-attachment: fixed; /* Mantém a imagem fixa ao rolar */
     }
 }

@@ -565,10 +565,18 @@ footer p {
 
 /* Estilos para telas menores que 1366px (HD ou abaixo) */
 @media (min-width: 768px) and (max-width: 1366px){
+    body {
+        height: auto;             /* Faz o site ocupar 100% da altura da tela */
+        margin: 0 auto;            /* Centraliza o site horizontalmente */
+        background-color: #f0f0f0; /* Cor de fundo do site */
+        padding: 20px;
+        font-size: 20px; /* Aumenta o tamanho da fonte para telas grandes */
+        padding: 50px; /* Ajusta o espaçamento */
+      }
     .name {
         font-size: 2em;
-        top: 5%;
-        left: 55%;
+        top: 8%;
+        left: 54%;
     }
 
     .links-around {

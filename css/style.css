@@ -1,12 +1,16 @@
 /* Reseta o estilo básico e remove margens/paddings padrão */
 * {
-    margin: 0px;
-    padding: 0;
     box-sizing: border-box; /* Garante que o padding e a borda não aumentem o tamanho dos elementos */
 }
 
+html, body {
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove espaçamento padrão */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .header{
-    max-width: 1200px;
+    max-width: 1100px;
 }
 
 /* Estilização do corpo da página */
@@ -56,6 +60,10 @@ body {
 .menu ul li a:hover{
     color: black;
     background-color: white;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5); /* Sombra para efeito visual */
+    -webkit-box-shadow: 20px 20px 15px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 20px 20px 15px 1px rgba(0,0,0,0.75);
+    box-shadow: 20px 20px 15px 1px rgba(0,0,0,0.75);
 }
 
 .liguagem-programacao{
@@ -84,7 +92,7 @@ body {
 
 .menu-vertical {
     position: fixed; /* Fixa o menu na lateral da página */
-    top: 130px; /* Alinha o menu ao topo */
+    top: 140px; /* Alinha o menu ao topo */
     left: -20px; /* Coloca o menu na lateral esquerda */
     width: 200px; /* Largura do menu */
     background-color: grey; /* Cor de fundo do menu */
@@ -98,29 +106,36 @@ body {
 }
 
 .menu-vertical ul {
+    position: relative;
+    top: -15px;
     list-style-type: none; /* Remove os marcadores da lista */
-    padding: 0; /* Remove o padding padrão */
+    padding: 0px 10px; /* Remove o padding padrão */
 }
 
 .menu-vertical li {
-    margin-bottom: 15px; /* Espaço entre os itens */
+    margin-bottom: 5px; /* Espaço entre os itens */
 }
 
 .menu-vertical a {
     color: white; /* Cor do texto */
+    width: 150px;
     text-decoration: none; /* Remove o sublinhado */
     display: block; /* Faz o link ocupar toda a largura do item */
-    padding: 10px; /* Espaçamento interno dos links */
+    padding: 5px; /* Espaçamento interno dos links */
 }
 
 .menu-vertical a:hover {
     background-color: white; /* Fundo do link ao passar o mouse */
     color: black; /* Cor do texto ao passar o mouse */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5); /* Sombra para efeito visual */
+    -webkit-box-shadow: 20px 20px 15px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 20px 20px 15px 1px rgba(0,0,0,0.75);
+    box-shadow: 20px 20px 15px 1px rgba(0,0,0,0.75);
 }
 
 
 .link-menu{
-    width: 150px;
+    width: 180px;
 }
 
 .folha-curriculo{
@@ -146,7 +161,7 @@ body {
 
 /* Container do currículo */
 .curriculo {
-    width: 1000px; /* Define a largura do currículo */
+    width: 800px; /* Define a largura do currículo */
     background-color: white;
     padding: 30px;
     border-radius: 0px;
@@ -189,4 +204,61 @@ body {
 .curriculo-especificacao{
     margin-top: 100px;
     text-shadow: 10px 10px 10px #000000;
+}
+
+.social-links {
+    margin-bottom: 8px;
+    padding: 10px;
+}
+
+.social-links a {
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #0400ff; /* Cor de destaque ao passar o mouse */
+}
+
+footer p {
+    margin-top: -20px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 0px 0px 0px;
+    font-size: 16px;
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.cursosdominio1{
+    padding: 0px 20px;
+}
+
+.cursosdominio2{
+    padding: 0px 50px;
+}
+
+pre{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.experiencia1{
+    padding: 0px 50px;
+    font-size: 14px;
+}
+
+.certificadodio{
+    padding: 0px 20px 0px;
+    display: flex;
+    position: relative;
+    top: -4px;
+    font-size: 12px;
 }

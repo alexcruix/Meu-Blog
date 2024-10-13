@@ -1,11 +1,11 @@
+/* Reseta o estilo básico e remove margens/paddings padrão */
 * {
     box-sizing: border-box; /* Para garantir que o padding e a borda não afetem as dimensões */
-
 }
 
 html, body {
-    margin: 0; /* Remove margens padrão */
-    padding: 0; /* Remove espaçamento padrão */
+    margin: 0px; /* Remove margens padrão */
+    padding: 0px; /* Remove espaçamento padrão */
     height: 100%; /* Garante que o corpo ocupe 100% da altura da tela */
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -191,18 +191,6 @@ header {
     height: auto;
 }
 
-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    font-size: 14px;
-    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.3);
-}
-
 .social-links {
     margin-bottom: 8px;
 }
@@ -210,7 +198,6 @@ footer {
 .social-links a {
     color: white;
     font-size: 30px;
-    margin: 0 6px;
     text-decoration: none;
     transition: color 0.3s ease;
 }
@@ -220,7 +207,20 @@ footer {
 }
 
 footer p {
-    margin-top: 5px;
+    margin-top: 0px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 16px;
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.3);
+    left: 0px;
 }
 
 /* Para telas menores que 2160px (Telas 4K) */
@@ -313,30 +313,6 @@ footer p {
         position: absolute;
         width: 500px;
         height: 500px;
-    }
-
-    .linguagem-programacao {
-        position: fixed;
-        right: 20px;
-        top: 50%;
-    }
-
-    .linguagem-programacao img {
-        width: 70px;
-    }
-
-    .social-links {
-        margin-bottom: 15px;
-    }
-
-    .social-links a {
-        margin: 1px 0px;
-        font-size: 40px;
-    }
-
-    footer {
-        font-size: 35px;
-        left: 0px;
     }
 }
 
@@ -442,19 +418,7 @@ footer p {
         width: 70px;
     }
 
-    .social-links {
-        margin-bottom: 15px;
-    }
 
-    .social-links a {
-        margin: 1px 0px;
-        font-size: 40px;
-    }
-
-    footer {
-        font-size: 35px;
-        left: 0px;
-    }
 }
 
 /* Estilo para telas Full HD (1920px) */
@@ -557,19 +521,7 @@ footer p {
         width: 50px;
     }
 
-    .social-links {
-        margin-bottom: 15px;
-    }
 
-    .social-links a {
-        margin: 1px 0px;
-        font-size: 20px;
-    }
-
-    footer {
-        font-size: 15px;
-        left: 0px;
-    }
 }
 
 
@@ -651,19 +603,6 @@ footer p {
         left: -110px;
     }
 
-    .social-links {
-        margin-bottom: 15px;
-    }
-
-    .social-links a {
-        margin: 1px 5px;
-        font-size: 30px;
-    }
-
-    footer {
-        font-size: 20px;
-        left: 0px;
-    }
 }
 
 @media (min-width: 768px) and (max-width: 1224px) { /* iPad Air */
@@ -752,10 +691,7 @@ footer p {
         display: none;
     }
 
-    footer {
-        font-size: 12px;
-        left: 0px;
-    }
+
 }
 
 @media (orientation: landscape) {
